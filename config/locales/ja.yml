@@ -1,0 +1,17 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+      post: 野球情報
+    attributes:
+      user:
+        name: ユーザー名
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワードの確認
+        profile: プロフィール
+        profile_image: プロフィール画像
+      post:
+        title: タイトル
+        body: 本文
+        image: 画像

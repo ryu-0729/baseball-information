@@ -25,7 +25,7 @@
                 <%= link_to "マイアカウント", user_path(current_user), class: "button is-primary is-light" %>
               </p> 
               <p class="control">
-                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "button is-primary is-light" %>
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, data: { confirm: "ログアウトしますか?" }, class: "button is-primary is-light" %>
               </p>
             </div>
           </div>
